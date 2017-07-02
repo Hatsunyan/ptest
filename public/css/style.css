@@ -1,0 +1,52 @@
+.container
+{
+    text-align: center;
+}
+.mode-switch
+{
+    display: flex;
+    font-size: 16px;
+}
+.mode-switch > div
+{
+    cursor: pointer;
+    width: 50%;
+}
+.mode-switch > div:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+.register-login
+{
+    margin: 200px  auto 0 auto;
+    border: solid 1px #ccc;
+    width: 300px;
+    text-align: center;
+}
+
+.register-login form:last-child
+{
+    display: none;
+}
+.form-input
+{
+    margin: 10px 0;
+}
+.form-input label
+{
+    display: block;
+}
+.user-list
+{
+    margin: 200px auto 0 auto;
+    width: 500px;
+}
+.user-list td
+{
+    border: solid 1px #ccc;
+    padding: 5px;
+    text-align: center;
+}
